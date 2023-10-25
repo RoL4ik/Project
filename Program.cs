@@ -11,21 +11,21 @@ namespace project {
 
 
         if (number2 > number) {
-            Console.Write("самое большое число, ");
+            Console.Write("Biggest number , ");
             Console.Write(number2);
             Console.ReadKey();
         }
 
         else if(number == number2) {
 
-            Console.WriteLine("Все чилса равны");
+            Console.WriteLine("all numbers are =");
             Console.ReadKey();
 
         }
 
 
         else {
-            Console.WriteLine("число не сходиться");
+            Console.WriteLine("wrong number (error)");
             Console.ReadKey();
         }
 
